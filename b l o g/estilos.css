@@ -1,0 +1,102 @@
+/* nav bar*/
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  transition: 0.2s
+}
+#navbar a {
+  float: center;
+  display: inline-block;
+  color: #333;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  width: 17%;
+}
+#navbar a:hover {
+  float: center;
+  display: inline-block;
+  color: #FFFF;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  width: 17%;
+  background-color: #B9B9B9;
+  border-radius: 5px;
+}
+.content {
+  padding: 16px;
+ }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.fuenteapple {
+  font-family: "SFUIText Semibold", Sans-serif;
+  font-size: 21px;
+}
+
+
+
+
+/* most recent */
+
+#recent {
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 45px;
+}
+
+/* prominent people -- editar a la hora de poner el contenido*/
+#ftppl {
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Timmana', sans-serif;
+	font-size: 36px;
+	
+
+}
+.colum {
+	float: left;
+	width: 50%;
+	padding-bottom: 5%
+}
+
+ul {
+
+
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Timmana', sans-serif;
+	font-family: 'Damion', cursive;
+	font-size: 25px;
+
+	list-style-type: upper-roman;
+
+}
+
+ul>a {
+	color: #333
+	
+}
+
+a {
+	text-decoration:none;
+}
+
+/* footer */
+
+
+.bottom {
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Timmana', sans-serif;
+	font-family: 'Almendra', serif;
+	position: bottom;
+	background-color: black
+
+}
