@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reikis Leguizamon | BLOG</title>
+	<link rel="icon" type="image/png" href="imgs/logosolo.png" />
+	<meta name="description" content="Blog de Reikis Leguizamon para compartir experiencias y cosas de la vida." />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>	
+
+<!- header ->
+<header>
+	<div id="headnav">
+		<a href="index.html"><img src="imgs/logo1.png" style="max-width:100%;height:auto;" ></a>
+	</div>
+	<div id="headnav" >
+		<center><nav class="nav">
+			<link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,700&display=swap" rel="stylesheet">
+
+		  <a href="index.html">Home</a> 
+		  <a href="skincare.html">Skincare</a> 
+		  <a href="closet.html">Closet</a> 
+		  <a href="about.html">About</a>
+
+		</nav></center>
+	
+	</div>
+</header>
+
+
+<section class="wrapper">
+	<section class="main">
+		<article>
+			<div id="border">	
+				<center>
+					<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+					<h3 id="thanks">Su mensaje se ha enviado con exito. <br>Gracias!!</h3>
+					<a href="index.html" id="bth">Back to home</a>
+				</center>
+			</div>
+		</article>
+	</section>
+</section>
+
+
+
+<!- scripts ->
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("headnav");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

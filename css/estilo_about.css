@@ -1,0 +1,123 @@
+/*header*/	
+
+#headnav {
+  overflow: hidden;
+  background-color: white;
+  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+
+  
+}
+#headnav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+
+}
+
+
+@media only screen and (min-width: 601px) {
+  #headnav a {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  #headnav a {
+    font-size: 10px;
+    font-weight: bold;
+  }
+}
+
+/*information*/
+#information{
+  float: left;
+  width: 50%;
+
+}
+@media only screen and (max-width: 800px) {
+  #information img{
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #information img{
+    width: 200%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #information {
+    float: none;
+  }
+}
+/*Mensaje*/
+input, label{
+  display: block;
+  font-size:15px;
+  box-sizing:content-box;
+  padding:10px;
+  margin: 5px 0 1px 0;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+}
+label{
+  font-size: 18px;
+}
+input{
+  text-align: center;
+}
+#titulo{
+  font-family: Walsheim, sans-serif;
+  font-weight: 700;
+  font-size: 40px 
+}
+
+input[type=submit]{
+  transition-duration: 0.4s;
+  background-color:#E8E8E8;
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 7px;
+  width: 5%;
+
+ 
+}
+input[type=submit]:hover {
+  background-color:white;
+  text-decoration:none;
+  display:inline-block;
+  padding: 4px 7px;
+  width: 5%;
+}
+#mensaje{
+
+}
+@media only screen and (max-width: 600px) {
+  input, label{
+    align-content: center;
+    font-family: 'Roboto Mono', monospace;
+    width: 50%;
+    padding: 5px
+  }
+}
+@media only screen and (max-width: 600px) {
+  input[type=submit], input[type=submit]:hover{
+    width: 15%;
+    padding: 2px 4px
+     }
+}
+@media only screen and (max-width: 600px) {
+  #titulo{
+    font-size:25px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  input[type=submit], input[type=submit]:hover{
+    font-size:12px;
+  }
+}
